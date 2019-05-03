@@ -1,0 +1,26 @@
+package com.angular.apidemo.controller;
+
+
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.angular.apidemo.service.EmployeeService;
+
+@RestController
+@RequestMapping("/api")
+public class EmployeeResource {
+
+	
+	private EmployeeService employeeService;
+	
+	public EmployeeResource(EmployeeService employeeService)
+	{
+		this.employeeService=employeeService;
+}
+	@RequestMapping(value="employee",method=RequestMethod.GET,produces=MediaType.APPLICATION_JSON_VALUE)
+public List<Employee>getAllEmployees(){
+		return employeeService.findAll();
+	}
+}

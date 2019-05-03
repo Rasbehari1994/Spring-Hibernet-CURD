@@ -1,0 +1,5 @@
+package com.angular.apidemo.model.repository;
+
+public interface EmployeeRepository {
+
+}

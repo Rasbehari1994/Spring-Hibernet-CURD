@@ -1,0 +1,5 @@
+package com.angular.apidemo.controller;
+
+public class EmployeeResource {
+
+}

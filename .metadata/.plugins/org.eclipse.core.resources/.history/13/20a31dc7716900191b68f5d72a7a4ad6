@@ -1,0 +1,19 @@
+package com.angular.apidemo.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.angular.apidemo.model.repository.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+private EmployeeRepository employeeRepository;
+
+@Autowired
+public EmployeeService(EmployeeRepository employeeRepository) {
+
+this.employeeRepository=employeeRepository;
+}
+}
+	
+

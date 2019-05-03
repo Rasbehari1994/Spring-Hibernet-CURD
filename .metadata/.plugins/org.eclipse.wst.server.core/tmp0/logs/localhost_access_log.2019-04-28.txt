@@ -1,0 +1,11 @@
+127.0.0.1 - - [28/Apr/2019:12:35:24 +0530] "GET / HTTP/1.1" 404 992
+0:0:0:0:0:0:0:1 - - [28/Apr/2019:12:35:25 +0530] "GET /AngularRestApiDemo/ HTTP/1.1" 200 2912
+0:0:0:0:0:0:0:1 - - [28/Apr/2019:12:35:25 +0530] "GET /AngularRestApiDemo/app/general.controller.js HTTP/1.1" 200 959
+0:0:0:0:0:0:0:1 - - [28/Apr/2019:12:35:25 +0530] "GET /AngularRestApiDemo/app/app.js HTTP/1.1" 200 54
+0:0:0:0:0:0:0:1 - - [28/Apr/2019:12:35:25 +0530] "GET /AngularRestApiDemo/app/employee.service.js HTTP/1.1" 404 1076
+0:0:0:0:0:0:0:1 - - [28/Apr/2019:12:35:35 +0530] "GET /AngularRestApiDemo/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [28/Apr/2019:12:35:35 +0530] "GET /AngularRestApiDemo/app/employee.service.js HTTP/1.1" 404 1076
+127.0.0.1 - - [28/Apr/2019:12:50:22 +0530] "GET / HTTP/1.1" 404 992
+127.0.0.1 - - [28/Apr/2019:12:52:15 +0530] "GET / HTTP/1.1" 404 992
+127.0.0.1 - - [28/Apr/2019:12:56:20 +0530] "GET / HTTP/1.1" 404 992
+127.0.0.1 - - [28/Apr/2019:13:02:52 +0530] "GET / HTTP/1.1" 404 992

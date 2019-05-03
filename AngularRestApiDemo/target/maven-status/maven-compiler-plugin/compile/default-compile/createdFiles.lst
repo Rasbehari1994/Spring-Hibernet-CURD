@@ -1,0 +1,5 @@
+com\angular\apidemo\model\repository\EmployeeRepository.class
+com\angular\apidemo\service\EmployeeService.class
+com\angular\apidemo\CrudApp.class
+com\angular\apidemo\controller\EmployeeResource.class
+com\angular\apidemo\model\Employee.class
